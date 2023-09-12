@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <footer id="myFooter"></footer>
+    <script>
+        const footerContent = {
+            id: 1,
+            phone: "234 567 89",
+            pizzeria: "Joe's",
+            link: "https://thoth.dk/",
+            pic: "images/x.jpg"
+        }
+        console.log(footerContent.pizzeria);
+    
+        myFooter.innerHTML = "<div id='address'>";
+        myFooter.innerHTML += "<h1>" + footerContent.pizzeria + "</h1>";
+        myFooter.innerHTML += "<p>" + footerContent.phone + "</p>";
+        //myFooter.innerHTML += // add a link
+        myFooter.innerHTML += // how can I add an image
+        myFooter.innerHTML += "</div>";
+    </script>
+</body>
+</html>
